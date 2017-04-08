@@ -13,6 +13,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'puma', '~> 3.0'
 gem 'rails', '~> 5.0.2'
 gem 'mysql2'
+gem 'prmd'
 
 group :development, :test do
   gem 'byebug', platform: :mri

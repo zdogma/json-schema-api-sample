@@ -1,0 +1,7 @@
+---
+title: JSON Schema API Sample
+description: json schema sample api application.
+id: schemata/meta
+links:
+- href: http://localhost
+  rel: self

@@ -2,10 +2,18 @@ json-schema-api-sample
 ===
 
 ## Description
+json schema を用いた API 開発のサンプルアプリケーション
 
-## Requirement
+## API
+[Document](docs/schema/schema.md)
 
-## Install
+### update
+```bash
+$ be rake -T | grep prmd
+rake prmd:combine                   # Combine schemas
+rake prmd:doc                       # Generate documentation
+rake prmd:verify                    # Verify schemas
+```
 
 ## Contribution
 1. Fork it ( https://github.com/zdogma/json-schema-api-sample/fork )

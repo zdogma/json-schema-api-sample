@@ -1,0 +1,37 @@
+### https://raw.github.com/github/gitignore/2c0cb52a67921cf3dffb8098ba027f376f73f859/rails.gitignore
+
+*.rbc
+capybara-*.html
+.rspec
+/log
+/tmp
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/public/system
+/coverage/
+/spec/tmp
+*.orig
+rerun.txt
+pickle-email-*.html
+config/initializers/secret_token.rb
+
+# dotenv
+.env*
+
+## Environment normalization:
+/.bundle
+/vendor/bundle
+
+# if using bower-rails ignore default bower_components path bower.json files
+/vendor/assets/bower_components
+*.bowerrc
+bower.json
+
+# Ignore pow environment settings
+.powenv
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Ignore Mac Finder position
+/.DS_Store

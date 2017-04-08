@@ -1,24 +1,19 @@
-# README
+json-schema-api-sample
+===
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
 
-Things you may want to cover:
+## Requirement
 
-* Ruby version
+## Install
 
-* System dependencies
+## Contribution
+1. Fork it ( https://github.com/zdogma/json-schema-api-sample/fork )
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Commit your changes (git commit -am 'Add some feature')
+4. Push to the branch (git push origin my-new-feature)
+5. Create new Pull Request
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Author
+<img src="https://avatars3.githubusercontent.com/u/1973683?v=3&s=460" width="45px;" style="margin-right: 10px;">
+[zdogma](https://github.com/zdogma/)

@@ -5,7 +5,8 @@ require 'prmd/rake_tasks/doc'
 namespace :prmd do
   Prmd::RakeTasks::Combine.new do |t|
     t.options[:meta] = 'docs/schema/meta.yml'
-    t.paths << 'docs/schema/schemata/user.yml'
+    schema_paths = Dir[File.join(Rails.root, 'docs', 'schema', 'schemata', '*.yml')]
+    schema_paths.each {|file_path| t.paths << file_path }
     t.output_file = 'docs/schema/schema.json'
   end
 

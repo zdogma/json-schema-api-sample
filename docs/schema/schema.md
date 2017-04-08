@@ -28,7 +28,7 @@ POST /users
 #### Curl Example
 
 ```bash
-$ curl -n -X POST //users \
+$ curl -n -X POST http://localhost/users \
   -d '{
 }' \
   -H "Content-Type: application/json"
@@ -64,7 +64,7 @@ DELETE /users/{user_id}
 #### Curl Example
 
 ```bash
-$ curl -n -X DELETE //users/$USER_ID \
+$ curl -n -X DELETE http://localhost/users/$USER_ID \
   -H "Content-Type: application/json"
 ```
 
@@ -98,7 +98,7 @@ GET /users/{user_id}
 #### Curl Example
 
 ```bash
-$ curl -n //users/$USER_ID
+$ curl -n http://localhost/users/$USER_ID
 ```
 
 
@@ -131,7 +131,7 @@ GET /users
 #### Curl Example
 
 ```bash
-$ curl -n //users
+$ curl -n http://localhost/users
 ```
 
 
@@ -166,7 +166,7 @@ PATCH /users/{user_id}
 #### Curl Example
 
 ```bash
-$ curl -n -X PATCH //users/$USER_ID \
+$ curl -n -X PATCH http://localhost/users/$USER_ID \
   -d '{
 }' \
   -H "Content-Type: application/json"
@@ -189,3 +189,5 @@ HTTP/1.1 200 OK
   "updated_at": "2015-01-01T12:00:00Z"
 }
 ```
+
+
